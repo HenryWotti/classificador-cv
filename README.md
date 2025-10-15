@@ -20,30 +20,34 @@ Desenvolvido em **React + Node.js + SQLite**, o app identifica automaticamente o
 
 ## 🧩 Estrutura do Projeto
 
+## 🧩 Estrutura do Projeto
+
+```bash
 classificador-cv/
 │
 ├── classificador-cv-frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── FileUpload/
-│ │ │ │ ├── FileUpload.jsx
-│ │ │ │ └── FileUpload.css
-│ │ │ └── FileExplorer/
-│ │ │ ├── FileExplorer.jsx
-│ │ │ └── FileExplorer.css
-│ │ └── App.jsx
-│ ├── package.json
-│ └── ...
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── FileUpload/
+│   │   │   │   ├── FileUpload.jsx
+│   │   │   │   └── FileUpload.css
+│   │   │   └── FileExplorer/
+│   │   │       ├── FileExplorer.jsx
+│   │   │       └── FileExplorer.css
+│   │   └── App.jsx
+│   ├── package.json
+│   └── ...
 │
 ├── classificador-cv-backend/
-│ ├── server.js
-│ ├── classify.js
-│ ├── db.js
-│ ├── storage/
-│ ├── package.json
-│ └── curriculos.db
+│   ├── server.js
+│   ├── classify.js
+│   ├── db.js
+│   ├── storage/
+│   ├── package.json
+│   └── curriculos.db
 │
 └── README.md
+```
 
 ---
 
