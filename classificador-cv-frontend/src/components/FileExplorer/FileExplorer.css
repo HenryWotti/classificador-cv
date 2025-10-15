@@ -1,0 +1,124 @@
+.explorer-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #1e1e1e;
+  color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+.folder-header,
+.subfolder-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.2rem;
+  padding: 8px 0;
+  font-size: 17px;     /* diminui o texto das pastas */
+  font-weight: 500;
+}
+
+.folder-header:hover,
+.subfolder-header:hover {
+  color: #00b7ff;
+}
+
+.subfolder-list {
+  margin-left: 20px;
+  border-left: 2px solid #444;
+  padding-left: 10px;
+}
+
+.file-list {
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 5px;
+  padding-left: 0;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3px 0;
+  background: #2a2a2a;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.file-item:hover {
+  background: #333;
+}
+
+button {
+  background-color: #3d7c3d; /* verde escuro */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #4caf50;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.file-actions {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.file-actions button {
+  background-color: #3d7c3d;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.file-actions button:hover {
+  background-color: #4caf50;
+}
+
+
+.file-actions button:nth-child(2) {
+  background-color: #8b0000;
+  border: 1px solid #a30000;
+}
+
+.file-actions button:nth-child(2):hover {
+  background-color: #b30000;
+}
+
+.subfolder-header {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;                /* deixa um pequeno espaço entre o ícone e o nome */
+  justify-content: flex-start; /* cola o nome ao lado do ícone */
+  transition: background 0.2s ease-in-out;
+}
+
+
+input[type="checkbox"] {
+  transform: scale(1.3);
+  margin-right: 10px;
+  cursor: pointer;
+}

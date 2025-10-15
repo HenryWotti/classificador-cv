@@ -1,0 +1,22 @@
+# Dependências do Node
+node_modules/
+
+# Banco de dados local
+curriculos.db
+database.sqlite
+db.sqlite
+
+# Pastas de armazenamento
+storage/
+
+# Logs
+*.log
+
+# Configurações locais
+.env
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
