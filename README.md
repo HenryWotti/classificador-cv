@@ -8,13 +8,12 @@ Desenvolvido em **React + Node.js + SQLite**, o app identifica automaticamente o
 ## 🚀 Funcionalidades Principais
 
 ✅ Upload de múltiplos arquivos PDF ou DOCX  
-✅ Classificação automática com base em palavras-chave  
+✅ Classificação automática de currículos com base em palavras-chave  
 ✅ Organização automática por setor e mês/ano  
-✅ Visualização hierárquica estilo “Explorador de Arquivos”  
+✅ Visualização hierárquica estilo “Explorador de Currículos”  
 ✅ Download individual, múltiplo ou completo de pastas  
 ✅ Exclusão de currículos diretamente pela interface  
 ✅ Armazenamento persistente em banco SQLite  
-✅ Tema escuro moderno e responsivo  
 
 ---
 
