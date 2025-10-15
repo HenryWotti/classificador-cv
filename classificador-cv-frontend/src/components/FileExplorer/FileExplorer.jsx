@@ -135,6 +135,7 @@ export default function FileExplorer() {
                             <div className="file-actions">
                               <button onClick={() => handleDownload(file.id)}>⬇️ Baixar</button>
                               <button onClick={() => handleRemove(file.id)}>🗑️ Remover</button>
+                              <button onClick={() => window.open(`http://localhost:8000/view/${file.id}`, "_blank")}> 👁️ Visualizar </button>
                             </div>
                           </li>
                         ))}

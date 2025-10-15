@@ -130,6 +130,12 @@ app.get("/download-zip", async (req, res) => {
   archive.finalize();
 });
 
+app.get("/view/:id", async (req, res) => {
+  const curriculo = await db.get("SELECT * FROM curriculos WHERE id = ?", [req.params.id]);
+  if (!curriculo) return res.status(404).send("Arquivo não encontrado");
+  res.sendFile(path.resolve(curriculo.caminho));
+});
+
 app.delete("/delete/:id", async (req, res) => {
   try {
     const curriculo = await db.get("SELECT * FROM curriculos WHERE id = ?", [
