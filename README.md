@@ -56,7 +56,6 @@ classificador-cv/
 git clone https://github.com/seu-usuario/classificador-cv.git
 cd classificador-cv
 ```
----
 
 ### 2️⃣ Instalar Dependências
 
@@ -91,6 +90,8 @@ npm run dev
 O frontend rodará em:
 👉 http://localhost:5173
 
+---
+
 ## 🧠 Classificação Automática
 
 A lógica de classificação utiliza palavras-chave agrupadas por **setor** (Financeiro, RH, Tecnologia, etc.).  
@@ -99,6 +100,8 @@ O texto dos currículos é **normalizado** (acentos e maiúsculas removidos) ant
 
 O resultado é armazenado no banco e usado para determinar o caminho final:
 /storage/<Setor>/<Mês-Ano>/<arquivo>.pdf
+
+---
 
 ## 💾 Banco de Dados (SQLite)
 
