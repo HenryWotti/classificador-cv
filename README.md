@@ -19,8 +19,6 @@ Desenvolvido em **React + Node.js + SQLite**, o app identifica automaticamente o
 
 ## 🧩 Estrutura do Projeto
 
-## 🧩 Estrutura do Projeto
-
 ```bash
 classificador-cv/
 │
