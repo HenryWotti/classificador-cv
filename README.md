@@ -161,6 +161,6 @@ As seções principais são:
 
 ## 👨‍💻 Autor
 
-**Desenvolvido por:** Henrycky Wottikosky da Fonceca
-📍 Projeto interno de automação de triagem de currículos  
-📅 **Versão:** 1.0.0  
+- **Desenvolvido por:** Henrycky Wottikosky da Fonceca
+- 📍 Projeto interno de automação de triagem de currículos  
+- 📅 **Versão:** 1.0.0  
